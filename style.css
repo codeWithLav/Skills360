@@ -1,0 +1,27 @@
+.bg{
+    background-color: black;
+    height: 40vh;
+    margin-bottom: 30px;
+    font-size: larger;
+    color: aquamarine;
+    text-align: center;
+    margin-top: 30px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+img {
+    width: -webkit-fill-available;
+}
+.banner-caption {
+    position: absolute;
+    top: 310px;
+    width: 100%;
+}
+p {
+    text-decoration: underline;
+    font-weight: bold;
+}

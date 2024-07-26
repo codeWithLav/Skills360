@@ -1,27 +1,126 @@
-.bg{
-    background-color: black;
-    height: 40vh;
-    margin-bottom: 30px;
-    font-size: larger;
-    color: aquamarine;
-    text-align: center;
-    margin-top: 30px;
+/*header css starts*/
+header {
+    background: #daac00;
+    padding: 20px 0;
 }
 
-ul {
+.log a img {
+    width: 80%;
+}
+
+.navigation ul {
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 50px;
 }
 
-img {
-    width: -webkit-fill-available;
+ul {}
+
+.navigation ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;
 }
-.banner-caption {
-    position: absolute;
-    top: 310px;
+
+.search form {
+    position: relative;
+}
+
+.search form input {
     width: 100%;
+    background: #fcc302;
+    border: unset;
+    padding: 10px 20px;
 }
-p {
-    text-decoration: underline;
-    font-weight: bold;
+
+.search form button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    border: none;
+    height: 100%;
+    padding: 10px 20px;
+    background: #00bec9;
+    color: #fff;
 }
+
+/*header css ends*/
+
+
+/*banner css starts*/
+section.banner {
+    background: #fcc302;
+    padding: 80px 0;
+}
+
+.banner-text h1 {
+    font-size: 60px;
+    color: #fff;
+    margin-bottom: 30px;
+    line-height: 1;
+}
+
+.banner-text p {
+    color: #fff;
+    font-size: 22px;
+    margin-bottom: 50px;
+}
+
+a.btn1 {}
+
+.banner-text a {
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+a.btn1 {
+    background: #00bec9;
+    color: #fff;
+    border: 2px solid #00bec9;
+    margin-left: 0;
+}
+
+a.btn2 {
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    padding: 10px 40px;
+}
+/*banner css ends*/
+
+
+
+
+/*about section starts*/
+section.about {
+    padding: 100px 0px;
+}
+
+.abt-text h1 {
+    font-size: 62px;
+}
+
+p {}
+
+.abt-text p {
+    font-size: 28px;
+}
+a.btn1.abtbtn {
+    background: #fcc302;
+    color: white;
+    border: 2px solid;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 10px;
+    line-height: 51px;
+    padding-inline: 20px;
+    font-size: larger;
+    margin-left: -5px;
+}
+/*about section ends*/
